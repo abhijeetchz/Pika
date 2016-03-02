@@ -14,6 +14,12 @@
 		BF9470301C4A7F98009D4B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF94702E1C4A7F98009D4B3B /* LaunchScreen.storyboard */; };
 		BF94703B1C4A7F98009D4B3B /* pikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94703A1C4A7F98009D4B3B /* pikaTests.swift */; };
 		BF9470461C4A7F98009D4B3B /* pikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9470451C4A7F98009D4B3B /* pikaUITests.swift */; };
+		BF9470581C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF9470571C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg */; };
+		BF9470591C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF9470571C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg */; };
+		BF94705A1C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF9470571C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg */; };
+		BFCB90CB1C52CD9700D6937D /* Pikachu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BFCB90CA1C52CD9700D6937D /* Pikachu.m4a */; };
+		BFCB90CC1C52CD9700D6937D /* Pikachu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BFCB90CA1C52CD9700D6937D /* Pikachu.m4a */; };
+		BFCB90CD1C52CD9700D6937D /* Pikachu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BFCB90CA1C52CD9700D6937D /* Pikachu.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		BF9470411C4A7F98009D4B3B /* pikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9470451C4A7F98009D4B3B /* pikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pikaUITests.swift; sourceTree = "<group>"; };
 		BF9470471C4A7F98009D4B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9470571C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cute-pikachu-yellow-Favim.com-302682.jpg"; sourceTree = "<group>"; };
+		BFCB90CA1C52CD9700D6937D /* Pikachu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pikachu.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		BF9470241C4A7F98009D4B3B /* pika */ = {
 			isa = PBXGroup;
 			children = (
+				BFCB90CA1C52CD9700D6937D /* Pikachu.m4a */,
+				BF9470571C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg */,
 				BF9470251C4A7F98009D4B3B /* AppDelegate.swift */,
 				BF9470271C4A7F98009D4B3B /* ViewController.swift */,
 				BF9470291C4A7F98009D4B3B /* Main.storyboard */,
@@ -234,6 +244,8 @@
 			files = (
 				BF9470301C4A7F98009D4B3B /* LaunchScreen.storyboard in Resources */,
 				BF94702D1C4A7F98009D4B3B /* Assets.xcassets in Resources */,
+				BF9470581C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg in Resources */,
+				BFCB90CB1C52CD9700D6937D /* Pikachu.m4a in Resources */,
 				BF94702B1C4A7F98009D4B3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCB90CC1C52CD9700D6937D /* Pikachu.m4a in Resources */,
+				BF9470591C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCB90CD1C52CD9700D6937D /* Pikachu.m4a in Resources */,
+				BF94705A1C4A808C009D4B3B /* Cute-pikachu-yellow-Favim.com-302682.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +501,7 @@
 				BF94704C1C4A7F98009D4B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF94704D1C4A7F98009D4B3B /* Build configuration list for PBXNativeTarget "pikaTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +510,7 @@
 				BF94704F1C4A7F98009D4B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF9470501C4A7F98009D4B3B /* Build configuration list for PBXNativeTarget "pikaUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +519,7 @@
 				BF9470521C4A7F98009D4B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
